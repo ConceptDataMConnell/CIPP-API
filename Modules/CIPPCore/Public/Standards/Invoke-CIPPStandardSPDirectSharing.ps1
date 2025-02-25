@@ -13,7 +13,6 @@ function Invoke-CIPPStandardSPDirectSharing {
         CAT
             SharePoint Standards
         TAG
-            "mediumimpact"
             "CIS"
         ADDEDCOMPONENT
         IMPACT
@@ -22,10 +21,11 @@ function Invoke-CIPPStandardSPDirectSharing {
             Set-SPOTenant -DefaultSharingLinkType Direct
         RECOMMENDEDBY
             "CIS 3.0"
+            "CIPP"
         UPDATECOMMENTBLOCK
             Run the Tools\Update-StandardsComments.ps1 script to update this comment block
     .LINK
-        https://docs.cipp.app/user-documentation/tenant/standards/edit-standards
+        https://docs.cipp.app/user-documentation/tenant/standards/list-standards/sharepoint-standards#medium-impact
     #>
 
     param($Tenant, $Settings)
